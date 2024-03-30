@@ -82,3 +82,56 @@ h1 {
   border: 1px solid rgb(25, 25, 128);
   border-radius: 1em 0 0 1em;
 }
+
+/* Currency select styles */
+#currency,
+#currency-two {
+  background-color: rgb(42, 42, 146);
+  padding: 2em;
+  color: white;
+  outline-style: none;
+  border-radius: 0 1em 1em 0;
+}
+
+/* Currency option styles */
+#currency option,
+#currency-two option {
+  background-color: black;
+}
+
+/* Form styles */
+.form {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Amount container styles */
+.amount-container {
+  margin-right: 5em;
+}
+
+/* General styles for labels, inputs, selects, and buttons */
+label,
+input,
+select,
+button {
+  margin-top: 10px;
+}
+
+/* Button styles */
+button {
+  padding: 8px 20px;
+  cursor: pointer;
+  background-color: rgb(42, 42, 146);
+  border: none;
+  color: white;
+  border-radius: 1em;
+  margin-top: 2.5em;
+}
+
+/* Conversion result styles */
+#conversionResult {
+  margin-top: 20px;
+}
