@@ -1,0 +1,46 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Container styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Header styles */
+.head {
+  width: 80%;
+  background-color: rgb(42, 42, 146);
+  color: white;
+  padding: 3em;
+  margin: 2em auto;
+  border-radius: 1em;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 3em;
+}
+
+/* Paragraph inside header styles */
+.head p {
+  margin-top: 1em;
+}
+
+/* Swap icon positioning */
+.swap-icon {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: larger;
+  color: rgb(23, 166, 255);
+}
