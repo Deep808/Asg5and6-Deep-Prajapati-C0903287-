@@ -44,3 +44,41 @@ h1 {
   font-size: larger;
   color: rgb(23, 166, 255);
 }
+
+/* Amount container styles */
+.amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Amount input styles */
+#amount-two {
+  padding: 2em;
+  outline-style: none;
+  border: 1px solid rgb(25, 25, 128);
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+/* Amount clone container styles */
+.amount-clone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Amount label styles */
+.amount label {
+  font-size: large;
+}
+
+/* Amount input styles */
+#amount {
+  padding: 2em;
+  outline-style: none;
+  border: 1px solid rgb(25, 25, 128);
+  border-radius: 1em 0 0 1em;
+}
